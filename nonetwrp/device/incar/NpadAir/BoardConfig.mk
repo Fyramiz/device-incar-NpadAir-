@@ -100,6 +100,7 @@ ifeq ($(BOARD_BOOT_HEADER_VERSION),4)
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 endif
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
@@ -131,3 +132,12 @@ TWRP_INCLUDE_LOGCAT := false                   # Include LogCat Binary
 TW_INCLUDE_FB2PNG := false                     # Include Screenshot Support
 TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
 TW_EXTRA_LANGUAGES := false
+
+#
+# For local builds only
+#
+# TWRP zip installer
+ifneq ($(wildcard bootable/recovery/installer/.),)
+    USE_RECOVERY_INSTALLER := true
+    RECOVERY_INSTALLER_PATH := bootable/recovery/installer
+endif
