@@ -1,0 +1,128 @@
+[1mbuild/make/core/soong_config.mk:194: [35mwarning: [0m[1mBOARD_PLAT_PUBLIC_SEPOLICY_DIR has been deprecated. Use SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS instead.[0m
+[1mbuild/make/core/soong_config.mk:195: [35mwarning: [0m[1mBOARD_PLAT_PRIVATE_SEPOLICY_DIR has been deprecated. Use SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS instead.[0m
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=16.1.0
+TARGET_PRODUCT=twrp_NpadAir
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv7-a-neon
+TARGET_2ND_CPU_VARIANT=generic
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.1.75-060175-generic-x86_64-Ubuntu-22.04.3-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=SP2A.220405.004
+OUT_DIR=/workspace/device-incar-NpadAir-/fox_12.1/out
+============================================
+[  1% 1/95] regenerate globs shard 47 of 1024
+[  2% 2/95] regenerate globs shard 51 of 1024
+[  3% 3/95] regenerate globs shard 121 of 1024
+[  4% 4/95] regenerate globs shard 137 of 1024
+[  5% 5/95] regenerate globs shard 183 of 1024
+[  6% 6/95] regenerate globs shard 199 of 1024
+[  7% 7/95] regenerate globs shard 241 of 1024
+[  8% 8/95] regenerate globs shard 333 of 1024
+[  9% 9/95] regenerate globs shard 351 of 1024
+[ 10% 10/95] regenerate globs shard 402 of 1024
+[ 11% 11/95] regenerate globs shard 411 of 1024
+[ 12% 12/95] regenerate globs shard 571 of 1024
+[ 13% 13/95] regenerate globs shard 573 of 1024
+[ 14% 14/95] regenerate globs shard 605 of 1024
+[ 15% 15/95] regenerate globs shard 701 of 1024
+[ 16% 16/95] regenerate globs shard 777 of 1024
+[ 17% 17/95] regenerate globs shard 783 of 1024
+[ 18% 18/95] regenerate globs shard 867 of 1024
+[ 20% 19/95] regenerate globs shard 475 of 1024
+[ 21% 20/95] regenerate globs shard 890 of 1024
+[ 22% 21/95] regenerate globs shard 950 of 1024
+[ 23% 22/95] regenerate globs shard 955 of 1024
+[ 24% 23/95] regenerate globs shard 956 of 1024
+[ 25% 24/95] regenerate globs shard 957 of 1024
+[ 26% 25/95] regenerate globs shard 958 of 1024
+[ 27% 26/95] regenerate globs shard 954 of 1024
+[ 28% 27/95] regenerate globs shard 959 of 1024
+[ 29% 28/95] regenerate globs shard 960 of 1024
+[ 30% 29/95] regenerate globs shard 962 of 1024
+[ 31% 30/95] regenerate globs shard 963 of 1024
+[ 32% 31/95] regenerate globs shard 965 of 1024
+[ 33% 32/95] regenerate globs shard 939 of 1024
+[ 34% 33/95] regenerate globs shard 964 of 1024
+[ 35% 34/95] regenerate globs shard 966 of 1024
+[ 36% 35/95] regenerate globs shard 967 of 1024
+[ 37% 36/95] regenerate globs shard 968 of 1024
+[ 38% 37/95] regenerate globs shard 969 of 1024
+[ 40% 38/95] regenerate globs shard 970 of 1024
+[ 41% 39/95] regenerate globs shard 971 of 1024
+[ 42% 40/95] regenerate globs shard 973 of 1024
+[ 43% 41/95] regenerate globs shard 974 of 1024
+[ 44% 42/95] regenerate globs shard 975 of 1024
+[ 45% 43/95] regenerate globs shard 977 of 1024
+[ 46% 44/95] regenerate globs shard 978 of 1024
+[ 47% 45/95] regenerate globs shard 980 of 1024
+[ 48% 46/95] regenerate globs shard 981 of 1024
+[ 49% 47/95] regenerate globs shard 972 of 1024
+[ 50% 48/95] regenerate globs shard 982 of 1024
+[ 51% 49/95] regenerate globs shard 983 of 1024
+[ 52% 50/95] regenerate globs shard 984 of 1024
+[ 53% 51/95] regenerate globs shard 985 of 1024
+[ 54% 52/95] regenerate globs shard 986 of 1024
+[ 55% 53/95] regenerate globs shard 988 of 1024
+[ 56% 54/95] regenerate globs shard 989 of 1024
+[ 57% 55/95] regenerate globs shard 979 of 1024
+[ 58% 56/95] regenerate globs shard 987 of 1024
+[ 60% 57/95] regenerate globs shard 990 of 1024
+[ 61% 58/95] regenerate globs shard 991 of 1024
+[ 62% 59/95] regenerate globs shard 993 of 1024
+[ 63% 60/95] regenerate globs shard 994 of 1024
+[ 64% 61/95] regenerate globs shard 995 of 1024
+[ 65% 62/95] regenerate globs shard 996 of 1024
+[ 66% 63/95] regenerate globs shard 997 of 1024
+[ 67% 64/95] regenerate globs shard 992 of 1024
+[ 68% 65/95] regenerate globs shard 998 of 1024
+[ 69% 66/95] regenerate globs shard 999 of 1024
+[ 70% 67/95] regenerate globs shard 1000 of 1024
+[ 71% 68/95] regenerate globs shard 1001 of 1024
+[ 72% 69/95] regenerate globs shard 1002 of 1024
+[ 73% 70/95] regenerate globs shard 1003 of 1024
+[ 74% 71/95] regenerate globs shard 1004 of 1024
+[ 75% 72/95] regenerate globs shard 1005 of 1024
+[ 76% 73/95] regenerate globs shard 1006 of 1024
+[ 77% 74/95] regenerate globs shard 1007 of 1024
+[ 78% 75/95] regenerate globs shard 1008 of 1024
+[ 80% 76/95] regenerate globs shard 1009 of 1024
+[ 81% 77/95] regenerate globs shard 1010 of 1024
+[ 82% 78/95] regenerate globs shard 1012 of 1024
+[ 83% 79/95] regenerate globs shard 1013 of 1024
+[ 84% 80/95] regenerate globs shard 1014 of 1024
+[ 85% 81/95] regenerate globs shard 976 of 1024
+[ 86% 82/95] regenerate globs shard 1015 of 1024
+[ 87% 83/95] regenerate globs shard 1016 of 1024
+[ 88% 84/95] regenerate globs shard 1017 of 1024
+[ 89% 85/95] regenerate globs shard 1018 of 1024
+[ 90% 86/95] regenerate globs shard 1019 of 1024
+[ 91% 87/95] regenerate globs shard 1011 of 1024
+[ 92% 88/95] regenerate globs shard 1021 of 1024
+[ 93% 89/95] regenerate globs shard 961 of 1024
+[ 94% 90/95] regenerate globs shard 1023 of 1024
+[ 95% 91/95] regenerate globs shard 1020 of 1024
+[ 96% 92/95] regenerate globs shard 1022 of 1024
+[ 97% 93/95] regenerate globs shard 946 of 1024
+[ 98% 94/95] regenerate globs shard 699 of 1024
+[100% 95/95] /workspace/device-incar-NpadAir-/fox_12.1/out/soong/.bootstrap/bin/soong_build /workspace/device-incar-NpadAir-/fox_12.1/out/soong/build.ninja
+wildcard(/workspace/device-incar-NpadAir-/fox_12.1/out/target/product/NpadAir/clean_steps.mk) was changed, regenerating...
+No need to regenerate ninja file
+No need to regenerate ninja file
+Starting ninja...
+ninja: no work to do.
+
+[0;32m#### build completed successfully (56 seconds) ####[00m
+
