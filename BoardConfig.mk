@@ -134,7 +134,7 @@ TWRP_INCLUDE_LOGCAT := false                   # Include LogCat Binary
 TW_INCLUDE_FB2PNG := false                     # Include Screenshot Support
 TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
 TW_EXTRA_LANGUAGES := false
-
+TW_MAX_BRIGHTNESS := 255
 
 
 # unified script
