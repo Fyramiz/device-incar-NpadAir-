@@ -157,7 +157,7 @@ ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
   endif
 endif
 #fi
-else
+#else
 	if [ -z "$FOX_BUILD_DEVICE" -a -z "$BASH_SOURCE" ]; then
 		echo "I: This script requires bash. Not processing the $FDEVICE $(basename $0)"
 	fi
