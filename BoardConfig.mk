@@ -156,7 +156,7 @@ ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
       OF_NO_REFLASH_CURRENT_ORANGEFOX := 1
   endif
 endif
-fi
+#fi
 else
 	if [ -z "$FOX_BUILD_DEVICE" -a -z "$BASH_SOURCE" ]; then
 		echo "I: This script requires bash. Not processing the $FDEVICE $(basename $0)"
