@@ -135,11 +135,24 @@ TW_INCLUDE_FB2PNG := false                     # Include Screenshot Support
 TW_DEFAULT_LANGUAGE := en                     # Set Default Language 
 TW_EXTRA_LANGUAGES := false
 
-#
-# For local builds only
-#
-# TWRP zip installer
-ifneq ($(wildcard bootable/recovery/installer/.),)
-    USE_RECOVERY_INSTALLER := true
-    RECOVERY_INSTALLER_PATH := bootable/recovery/installer
+
+
+# unified script
+PRODUCT_COPY_FILES += $(DEVICE_PATH)/recovery/$(PRODUCT_RELEASE_NAME)/unified-script.sh:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/unified-script.sh
+
+# vendor_boot as recovery?
+ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
+  BOARD_USES_RECOVERY_AS_BOOT :=
+  BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE :=
+  BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
+  BOARD_USES_GENERIC_KERNEL_IMAGE := true
+  BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
+  ifeq ($(BOARD_BOOT_HEADER_VERSION),4)
+      BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
+  endif
+
+  ifneq ($(FOX_VENDOR_BOOT_RECOVERY_FULL_REFLASH),1)
+  # disable the reflash menu, until all vendor_boot ROMs have a v4 header - else it won't work
+      OF_NO_REFLASH_CURRENT_ORANGEFOX := 1
+  endif
 endif
