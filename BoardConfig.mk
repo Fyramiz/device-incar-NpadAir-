@@ -136,12 +136,6 @@ TW_DEFAULT_LANGUAGE := en                     # Set Default Language
 TW_EXTRA_LANGUAGES := false
 TW_MAX_BRIGHTNESS := 255
 
-
-# unified script
-PRODUCT_COPY_FILES += $(DEVICE_PATH)/recovery/$(PRODUCT_RELEASE_NAME)/unified-script.sh:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/unified-script.sh
-
-# vendor_boot as recovery?
-ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
   BOARD_USES_RECOVERY_AS_BOOT :=
   BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE :=
   BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
@@ -150,4 +144,3 @@ ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
   ifeq ($(BOARD_BOOT_HEADER_VERSION),4)
       BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
   endif
-endif
