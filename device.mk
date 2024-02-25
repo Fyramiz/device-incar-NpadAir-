@@ -33,3 +33,14 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+# fastbootd
+PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.0-impl-mock \
+    fastbootd
+
+# fstab
+PRODUCT_PACKAGES += \
+    fstab.default.vendor_ramdisk
+
+PRODUCT_TARGET_VNDK_VERSION := 31
