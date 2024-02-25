@@ -150,9 +150,4 @@ ifeq ($(FOX_VENDOR_BOOT_RECOVERY),1)
   ifeq ($(BOARD_BOOT_HEADER_VERSION),4)
       BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
   endif
-
-  ifneq ($(FOX_VENDOR_BOOT_RECOVERY_FULL_REFLASH),1)
-  # disable the reflash menu, until all vendor_boot ROMs have a v4 header - else it won't work
-      OF_NO_REFLASH_CURRENT_ORANGEFOX := 1
-  endif
 endif
